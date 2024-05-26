@@ -1,4 +1,6 @@
 import PhoneNumberInput from "@/components/PhoneInput";
+import Button from "@/components/Button";
+import Link from "next/link";
 const Register = () => {
   return (
     <div className="text-black">
@@ -10,8 +12,19 @@ const Register = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center pt-5">
+      <div className="pt-5 text-left">
         <PhoneNumberInput />
+        <Button text="Continue" className="mt-7" secondary />
+      </div>
+
+      <div className="pt-5 text-sm font-medium text-center leading-5">
+        <p className="text-grey-100">
+          For new users, by clicking “Continue”, you agree to our
+        </p>
+        <span className="inline-block">
+          <Link href="#" className="underline">Terms & Conditions</Link> and
+          <Link href="#" className="underline"> Privacy Policy</Link>
+        </span>
       </div>
     </div>
   );

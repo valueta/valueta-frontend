@@ -21,7 +21,7 @@ const PhoneNumberValidation = () => {
 
   return (
     <div className="">
-      <label className="font-medium text-xs pb-1">Phone number</label>
+      <label className="font-medium text-xs pb-1">Phone Number</label>
 
       <div className="text-center">
         <PhoneInput
@@ -40,6 +40,7 @@ const PhoneNumberValidation = () => {
             borderTopRightRadius: "9px",
             borderBottomRightRadius: "9px",
             height: "56px",
+            width: "100%"
           }}
           inputProps={{
             required: true,

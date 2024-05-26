@@ -6,7 +6,7 @@ const AuthLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
     <div className="grid grid-cols-2 min-h-screen">
       <div className="bg-primary"></div>
 
-      <div className="flex flex-col items-center px-[170px] pt-[61px] bg-white">
+      <div className="flex flex-col items-center text-center px-[170px] pt-[61px] bg-white">
         <div className="pb-8">
           <Logo />
         </div>
